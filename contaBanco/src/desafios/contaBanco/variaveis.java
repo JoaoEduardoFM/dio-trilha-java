@@ -1,4 +1,4 @@
-package contaBanco;
+package desafios.contaBanco;
 
 import java.math.BigDecimal;
 
