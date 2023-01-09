@@ -1,6 +1,6 @@
-package desafios.banco;
+package desafios.banco.instituicao;
 
-public class Banco {
+public class Cliente {
 	
 	private String nome;
 
@@ -13,5 +13,4 @@ public class Banco {
 	}
 	
 	
-
 }

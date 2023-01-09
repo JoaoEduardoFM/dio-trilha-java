@@ -1,4 +1,4 @@
-package desafios.banco;
+package desafios.banco.contas;
 
 public interface IConta {
 

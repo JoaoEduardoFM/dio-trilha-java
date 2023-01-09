@@ -1,5 +1,10 @@
 package desafios.banco;
 
+import desafios.banco.contas.Conta;
+import desafios.banco.contas.ContaCorrente;
+import desafios.banco.contas.ContaPoupanca;
+import desafios.banco.instituicao.Cliente;
+
 public class Main {
 	
 	public static void main(String[] args) {

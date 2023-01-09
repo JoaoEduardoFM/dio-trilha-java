@@ -1,4 +1,6 @@
-package desafios.banco;
+package desafios.banco.contas;
+
+import desafios.banco.instituicao.Cliente;
 
 public abstract class Conta implements IConta{
 	
