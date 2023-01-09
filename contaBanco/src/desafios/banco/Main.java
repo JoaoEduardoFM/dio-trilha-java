@@ -13,13 +13,13 @@ public class Main {
 		
 		Joao.setNome("João Eduardo");
 		
-		Conta cc = new ContaCorrente(Joao);
-		cc.depositar(100);
+		Conta contaCorrente = new ContaCorrente(Joao);
+		contaCorrente.depositar(100);
 		
 		Conta poupanca = new ContaPoupanca(Joao);
-		cc.transferir(poupanca, 100);
+		contaCorrente.transferir(poupanca, 100);
 		
-		cc.imprimirExtrato();
+		contaCorrente.imprimirExtrato();
 		poupanca.imprimirExtrato();
 	}
 
