@@ -10,7 +10,7 @@ public class ContaPoupanca extends Conta{
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("Extrato conta poupança: ");
+		System.out.println("Extrato conta poupanca: ");
 		imprimirInfosComuns();
 	}
 	
