@@ -11,7 +11,7 @@ public class Main {
 		
 		Cliente Joao = new Cliente();
 		
-		Joao.setNome("Jo√£o Eduardo");
+		Joao.setNome("Jo„o Eduardo");
 		
 		Conta cc = new ContaCorrente(Joao);
 		cc.depositar(100);
