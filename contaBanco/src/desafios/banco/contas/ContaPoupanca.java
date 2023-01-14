@@ -1,4 +1,6 @@
-package desafios.banco;
+package desafios.banco.contas;
+
+import desafios.banco.instituicao.Cliente;
 
 public class ContaPoupanca extends Conta{
 	
@@ -8,7 +10,7 @@ public class ContaPoupanca extends Conta{
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("Extrato conta poupança: ");
+		System.out.println("Extrato conta poupanca: ");
 		imprimirInfosComuns();
 	}
 	

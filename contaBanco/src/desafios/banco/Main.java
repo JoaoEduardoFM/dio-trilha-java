@@ -1,20 +1,25 @@
 package desafios.banco;
 
+import desafios.banco.contas.Conta;
+import desafios.banco.contas.ContaCorrente;
+import desafios.banco.contas.ContaPoupanca;
+import desafios.banco.instituicao.Cliente;
+
 public class Main {
 	
 	public static void main(String[] args) {
 		
 		Cliente Joao = new Cliente();
 		
-		Joao.setNome("Jo√£o Eduardo");
+		Joao.setNome("Jo„o Eduardo");
 		
-		Conta cc = new ContaCorrente(Joao);
-		cc.depositar(100);
+		Conta contaCorrente = new ContaCorrente(Joao);
+		contaCorrente.depositar(100);
 		
 		Conta poupanca = new ContaPoupanca(Joao);
-		cc.transferir(poupanca, 100);
+		contaCorrente.transferir(poupanca, 100);
 		
-		cc.imprimirExtrato();
+		contaCorrente.imprimirExtrato();
 		poupanca.imprimirExtrato();
 	}
 
